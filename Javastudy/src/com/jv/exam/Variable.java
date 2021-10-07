@@ -10,7 +10,7 @@ public class Variable {
 		int num3 = num1+num2; //변수끼리의 연산이 대입 값으로 올 수도 있다.
 		System.out.println(num1+"+"+num2+"="+num3);
 		
-		//수정
+		//수정//
 
 	}
 
