@@ -9,6 +9,8 @@ public class Variable {
 		int num2 = 20; // 변수의 선언과 초기화를 동시에 할 수도 있다.
 		int num3 = num1+num2; //변수끼리의 연산이 대입 값으로 올 수도 있다.
 		System.out.println(num1+"+"+num2+"="+num3);
+		
+		//수정
 
 	}
 
