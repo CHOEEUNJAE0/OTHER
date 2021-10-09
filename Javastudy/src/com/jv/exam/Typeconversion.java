@@ -15,18 +15,22 @@ public class Typeconversion {
 		
 		System.out.println("-------------------------------");
 		System.out.println("강제형변환");
-		double pi = 3.14;
-		int wholeNumber = (int)pi;
-		System.out.println(wholeNumber);
+		int i = 65;
+		char c = (char)i;
+		System.out.println("65의 유니코드 문자값 : " + c);
 		
-		long lnum2 = 3000000000007L;
-		int num3 = (int)lnum2;
-		System.out.println(num3);
+		double d = 3.14;
+		int j = (int)d;
+		System.out.println(j); //int는 정수이기때문에 소숫점 제외한 3을 출력
 		
-		short snum1 = 1;
-		short snum2 = 2;
-		short snum3 = (short)(snum1+snum2);
-		System.out.println(snum3);
+		/*
+		 * 강제 형변환을 사용 할 때 주의 할 점은 
+		 * 해당 데이터 타입을 받아 들일 수 없는 범위의 값이 들어오면
+		 * 임의의 값을 저장하게 된다.
+		 */
+		int k = 1000;
+		byte b = (byte)k;
+		System.out.println(b);
 
 	}
 
