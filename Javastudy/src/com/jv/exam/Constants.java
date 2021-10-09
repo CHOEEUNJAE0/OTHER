@@ -3,6 +3,8 @@ package com.jv.exam;
 public class Constants {
 
 	public static void main(String[] args) {
+		//https://slow-magnolia-307.notion.site/4549cd84770949b3bafada845921c31e
+		
 		//상수 final 키워드를 통해서 선언한다.
 		
 		final int MAX_SIZE = 100; //보통 이렇게 선언과 동시에 초기화
