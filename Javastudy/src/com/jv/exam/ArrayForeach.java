@@ -19,8 +19,10 @@ public class ArrayForeach {
 		
 		
 		String[] books = {"개미", "혈의누","헤리포터", "헝거게임"};
-		for(String e : books) {
-			System.out.println(e + "가 대여 되었습니다.");
+		// 변수는 꼭 e가 아니더라도 임의로 설정 해 주면 된다. 여기에 e가 아닌 book으로 설정 해도 실행 되듯이 말이다.
+		// 요소의 타입&변수 : 배열 또는 컬렉션
+		for(String book : books) {
+			System.out.println(book + "가 대여 되었습니다.");
 		}
 		for(int j =0; j <books.length; j++) {
 			String book = books[j]; {
